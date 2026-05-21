@@ -73,7 +73,7 @@ export const ShareCard = ({ styleType, customAmount }) => {
             </div>
           </div>
           <span className="text-[8px] text-light text-opacity-40 font-mono select-all">
-            alumni.greenfield.edu/give?ref=AK2015
+            alumni.gitc.edu/give?ref=AK2015
           </span>
         </div>
       </div>
@@ -87,7 +87,7 @@ export const ShareCard = ({ styleType, customAmount }) => {
         {/* Certificate Seal Placeholder */}
         <div className="absolute right-6 bottom-6 opacity-10 flex flex-col items-center">
           <Award className="w-20 h-20 text-accent" />
-          <span className="text-[9px] font-extrabold tracking-widest font-sora mt-1 text-center">GIT SEAL</span>
+          <span className="text-[9px] font-extrabold tracking-widest font-sora mt-1 text-center">GITC SEAL</span>
         </div>
 
         {/* Certificate Header */}
@@ -125,7 +125,7 @@ export const ShareCard = ({ styleType, customAmount }) => {
           </div>
           <div className="flex flex-col items-center">
             <div className="w-20 border-b border-gray-400 h-6 mb-1 relative flex items-center justify-center">
-              <span className="text-[9px] font-sora italic text-accent opacity-70">GitAlumni</span>
+              <span className="text-[9px] font-sora italic text-accent opacity-70">GitcAlumni</span>
             </div>
             <span className="text-[8px] text-gray-400 font-bold uppercase font-sora">Alumni President</span>
           </div>

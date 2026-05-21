@@ -233,7 +233,7 @@ export const CampaignBuilder = () => {
                     <span className="text-[9px] text-gray-400 font-mono">{(campaignMessage || '').length} chars</span>
                   </div>
                   <textarea
-                    placeholder="Dear {first_name}, hope you are doing well! Greenfield Institute is launching the GuruDakshina Giving Initiative. Support the Class of {batch_year} legacy here: {reunion_link}"
+                    placeholder="Dear {first_name}, hope you are doing well! Gram Vidyapeeth is launching the GuruDakshina Giving Initiative. Support the Class of {batch_year} legacy here: {reunion_link}"
                     value={campaignMessage}
                     onChange={(e) => setCampaignMessage(e.target.value)}
                     rows="5"

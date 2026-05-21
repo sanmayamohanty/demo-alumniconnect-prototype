@@ -21,8 +21,8 @@ const defaultDemoUser = {
 };
 
 const defaultInstitution = {
-  name: 'Greenfield Institute of Technology',
-  shortName: 'GIT',
+  name: 'Gram Vidyapeeth Inter College',
+  shortName: 'GITC',
   primaryColor: '#1A3A5C',
   accentColor: '#C49A22',
   establishedYear: 1975,

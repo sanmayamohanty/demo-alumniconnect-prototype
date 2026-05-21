@@ -32,7 +32,7 @@ export const LeaderboardAdmin = () => {
   };
 
   const handleExportCSV = () => {
-    triggerToast('Generating CSV report: greenfield_leaderboard_data.csv');
+    triggerToast('Generating CSV report: gitc_leaderboard_data.csv');
   };
 
   const handleShareStats = () => {

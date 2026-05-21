@@ -144,7 +144,7 @@ export const Leaderboard = () => {
                   <span>Leaderboard Highlights</span>
                 </h3>
                 <p className="text-xs text-gray-500 leading-relaxed font-sans mb-4">
-                  Greenfield graduates contribute across multiple pillars. Select tabs to check rankings in specific domains.
+                  {institution.shortName} graduates contribute across multiple pillars. Select tabs to check rankings in specific domains.
                 </p>
                 <div className="space-y-2">
                   <div className="p-3 bg-light bg-opacity-50 rounded-lg border border-gray-100 flex items-center justify-between">

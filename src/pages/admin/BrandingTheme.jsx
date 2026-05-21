@@ -49,8 +49,8 @@ export const BrandingTheme = () => {
   };
 
   const handleReset = () => {
-    setInstName('Greenfield Institute of Technology');
-    setShortName('GIT');
+    setInstName('Gram Vidyapeeth Inter College');
+    setShortName('GITC');
     setPrimaryCol('#1A3A5C');
     setAccentCol('#C49A22');
     setEstablished(1975);

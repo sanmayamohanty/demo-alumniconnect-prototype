@@ -19,7 +19,7 @@ export const Integrations = () => {
   const [toastMessage, setToastMessage] = useState('');
   
   const [services, setServices] = useState([
-    { id: 'wati', name: 'WATI', category: 'WhatsApp Gateway', connected: true, apiKey: 'd2df7389s8dfy3u1h2j1k231', endpoint: 'https://api.wati.io/v1/greenfield' },
+    { id: 'wati', name: 'WATI', category: 'WhatsApp Gateway', connected: true, apiKey: 'd2df7389s8dfy3u1h2j1k231', endpoint: 'https://api.wati.io/v1/gitc' },
     { id: 'msg91', name: 'MSG91', category: 'SMS Gateway', connected: true, apiKey: '918237198273981273912739', endpoint: 'https://api.msg91.com/v5/otp' },
     { id: 'brevo', name: 'Brevo (Sendinblue)', category: 'Email Service', connected: false, apiKey: '', endpoint: 'https://api.brevo.com/v3' },
     { id: 'razorpay', name: 'Razorpay API', category: 'Payment Gateway', connected: true, apiKey: 'rzp_live_G27fS81hJa8f', endpoint: 'Key Secret: **********' },

@@ -52,7 +52,7 @@ export const UserManagement = () => {
   };
 
   const handleDownloadTemplate = () => {
-    triggerToast('Downloading CSV Template: greenfield_alumni_template.csv');
+    triggerToast('Downloading CSV Template: gitc_alumni_template.csv');
   };
 
   const handleBulkUpload = (e) => {

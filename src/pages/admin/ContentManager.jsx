@@ -20,8 +20,8 @@ export const ContentManager = () => {
   const [toastMessage, setToastMessage] = useState('');
 
   // Hero section states
-  const [heroHeadline, setHeroHeadline] = useState('Where Greenfield graduates stay connected');
-  const [heroSubtitle, setHeroSubtitle] = useState('Build meaningful connections, mentor the next generation of builders, and support academic excellence at Greenfield Institute.');
+  const [heroHeadline, setHeroHeadline] = useState('Where Gram Vidyapeeth graduates stay connected');
+  const [heroSubtitle, setHeroSubtitle] = useState('Build meaningful connections, mentor the next generation of builders, and support academic excellence at Gram Vidyapeeth Inter College.');
 
   // Stats states
   const [stat1, setStat1] = useState('15,000+');

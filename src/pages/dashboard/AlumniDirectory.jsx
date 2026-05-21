@@ -5,6 +5,7 @@ import AlumniCard from '../../components/features/AlumniCard';
 import Badge from '../../components/ui/Badge';
 import Input from '../../components/ui/Input';
 import { Search, Filter, X, CheckCircle2, ChevronLeft, ChevronRight } from 'lucide-react';
+import Button from '../../components/ui/Button';
 
 export const AlumniDirectory = () => {
   const [searchTerm, setSearchTerm] = useState('');

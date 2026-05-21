@@ -29,6 +29,8 @@ export const BrandingTheme = () => {
   const [established, setEstablished] = useState(institution.establishedYear);
   const [fontFamily, setFontFamily] = useState('Sora');
 
+  const heroHeadline = `Where ${shortName} graduates stay connected.`;
+
   const triggerToast = (msg) => {
     setToastMessage(msg);
     setTimeout(() => setToastMessage(''), 3000);

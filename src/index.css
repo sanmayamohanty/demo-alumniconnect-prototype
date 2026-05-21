@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Sora:wght@100..800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-primary: #1A3A5C;
+    --color-accent: #C49A22;
+  }
+  
+  body {
+    @apply bg-surface text-gray-800 antialiased font-sans;
+  }
+}
+
+/* Custom CSS utility patterns */
+
+/* Dark background dot-grid */
+.bg-dot-grid {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.08) 1px, transparent 1px);
+  background-size: 16px 16px;
+}
+
+/* Light background dot-grid */
+.bg-dot-grid-dark {
+  background-image: radial-gradient(rgba(26, 58, 92, 0.05) 1px, transparent 1px);
+  background-size: 16px 16px;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.scrollbar-none::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.scrollbar-none {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
